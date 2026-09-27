@@ -1,5 +1,10 @@
 # Documento de Contexto — Pong (Godot)
 
+## 0. Setup del proyecto
+
+- **Motor:** Godot 4.7.2
+- **Repositorio:** https://github.com/Pagorn07/A-Pong-Game
+
 ## 1. Objetivo del proyecto
 
 Hacer un juego de 0 a fin, simple pero cuidado visualmente ("un bonito simple"). El objetivo es doble:
@@ -88,8 +93,8 @@ res://
 │   ├── sprites/
 │   └── sounds/
 └── autoloads/
-    ├── GameManager.gd
-    └── EventBus.gd
+	├── GameManager.gd
+	└── EventBus.gd
 ```
 
 Convención: cada script vive junto a su escena correspondiente (no hay carpeta `scripts/` centralizada).
